@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/pet-markt-be-e2e"
+    },
+    {
+      "path": "./apps/pet-markt-be"
+    },
+    {
+      "path": "./apps/pet-markt-web-e2e"
+    },
+    {
+      "path": "./apps/pet-markt-web"
+    }
+  ]
+}
